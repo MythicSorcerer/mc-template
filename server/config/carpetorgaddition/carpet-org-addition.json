@@ -1,0 +1,18 @@
+{
+  "data_version": 2,
+  "custom_command_name": {
+    "navigate": "navigate",
+    "mail": "mail",
+    "itemshadowing": "itemshadowing",
+    "killMe": "killMe",
+    "playerAction": "playerAction",
+    "playerManager": "playerManager",
+    "ruleSearch": "ruleSearch",
+    "finder": "finder",
+    "orange": "orange",
+    "xpTransfer": "xpTransfer",
+    "spectator": "spectator",
+    "locations": "locations",
+    "creeper": "creeper"
+  }
+}
