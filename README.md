@@ -4,6 +4,7 @@ This is a full working minecraft server (well almost) just run the start script 
 
 # Deployment
 Open minecraft server folder.
+Run: 
 ```git clone https://github.com/MythicSorcerer/mc-template.git```
 
 
