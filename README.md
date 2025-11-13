@@ -2,22 +2,37 @@ Hi,
 
 This is a full working minecraft server (well almost) just run the start script and it starts working.
 
-Cronjob
+# Connectivity
+Forward port 25565 for players to connect to server and 25575 as well (for rcon to work correctly).
+Look up your ip (google it) or use terminal
+Mc server ip is host ip. Once correctly forwarded, anyone can connect
 
-# Open crontab editor
+# Usage
+Start server:
+- Would reccomend putting in tmux window
+- run "./mc/start.sh"
+- alternatively use systemctl
+
+Rcon:
+- "./mc/rcon.sh"
+
+# Features
+
+## Auto backup
+
+### Open crontab editor
 crontab -e
 
 0 3 */2 * * /Users/YOUR_USERNAME/minecraft-server/mc/backup.sh >> /Users/YOUR_USERNAME/minecraft-server/backups/backup.log 2>&1
 
-
-# Every 48 hours at 3 AM
+## Every 48 hours at 3 AM
 0 3 */2 * *
 
-# Every day at 3 AM (24 hours)
+## Every day at 3 AM (24 hours)
 0 3 * * *
 
-# Every 6 hours
+## Every 6 hours
 0 */6 * * *
 
-# Twice a day (3 AM and 3 PM)
+## Twice a day (3 AM and 3 PM)
 0 3,15 * * *
