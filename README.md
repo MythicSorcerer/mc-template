@@ -3,6 +3,8 @@ Hi,
 This is a full working minecraft server (well almost) just run the start script and it starts working.
 
 # Deployment
+Open minecraft server folder.
+```git clone https://github.com/MythicSorcerer/mc-template.git```
 
 
 # Usage
