@@ -2,10 +2,8 @@ Hi,
 
 This is a full working minecraft server (well almost) just run the start script and it starts working.
 
-# Connectivity
-Forward port 25565 for players to connect to server and 25575 as well (for rcon to work correctly).
-Look up your ip (google it) or use terminal
-Mc server ip is host ip. Once correctly forwarded, anyone can connect
+# Deployment
+
 
 # Usage
 Start server:
@@ -16,9 +14,17 @@ Start server:
 Rcon:
 - "./mc/rcon.sh"
 
-# Features
+# Connecting
+Forward port 25565 for players to connect to server and 25575 as well (for rcon to work correctly).
+Look up your ip (google it) or use terminal
+Mc server ip is host ip. Once correctly forwarded, anyone can connect
+
+
+
+# Additional bonuses
 
 ## Auto backup
+Regularly runs backup script which backs up server and deletes backups older than 14 days in backup folder
 
 ### Open crontab editor
 crontab -e
@@ -36,3 +42,6 @@ crontab -e
 
 ## Twice a day (3 AM and 3 PM)
 0 3,15 * * *
+
+# Re-initialize rcon
+- "./mc/init.sh"
