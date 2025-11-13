@@ -22,7 +22,10 @@ Forward port 25565 for players to connect to server and 25575 as well (for rcon 
 Look up your ip (google it) or use terminal
 Mc server ip is host ip. Once correctly forwarded, anyone can connect
 
-
+# Features
+- Fabric server 1.21.10
+- Client side vanilla experience
+- Server side management and optimization mods
 
 # Additional bonuses
 
