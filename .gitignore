@@ -4,12 +4,10 @@
 *.gz
 
 # Common Minecraft server files to ignore
-logs/
 crash-reports/
 world/
 world_nether/
 world_the_end/
-backups/
 
 # Fabric/Forge cache and libraries
 .fabric/
