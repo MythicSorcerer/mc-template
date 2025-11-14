@@ -35,7 +35,7 @@ Regularly runs backup script which backs up server and deletes backups older tha
 ### Open crontab editor
 crontab -e
 
-0 3 */2 * * /Users/YOUR_USERNAME/minecraft-server/mc/backup.sh >> /Users/YOUR_USERNAME/minecraft-server/backups/backup.log 2>&1
+0 3 */2 * * /path/to/mc/backup.sh >> /path/to/backups/backup.log 2>&1
 
 ## Every 48 hours at 3 AM
 0 3 */2 * *
