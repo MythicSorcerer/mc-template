@@ -23,6 +23,11 @@ Rcon:
 Logs: 
 - "./mc/log.sh"
 
+Oldlogs:
+- "./server/logs/unzipper" to unzip
+```cd logs/readable/
+./catall | less ```
+
 # Connecting
 Forward port 25565 for players to connect to server and 25575 as well (for rcon to work correctly).
 Look up your ip (google it) or use terminal
