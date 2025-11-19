@@ -1,0 +1,31 @@
+# Ignore world data and logs
+*.dat
+*.log
+*.gz
+*.log.gz
+*.mca
+
+
+# Too many files
+world/
+world_nether/
+world_the_end/
+
+# Fabric/Forge cache and libraries
+.fabric/
+libraries/
+
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Blank mod configurations (100+ files, all generated on launch)
+luckperms/
+config/
+

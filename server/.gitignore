@@ -1,0 +1,33 @@
+# Ignore .dat and .log files
+*.dat
+*.log
+
+# Common Minecraft server files to ignore
+logs/
+crash-reports/
+world/
+world_nether/
+world_the_end/
+
+# Fabric/Forge cache and libraries
+.fabric/
+libraries/
+
+# Player data (optional - remove if you want to track it)
+banned-ips.json
+banned-players.json
+ops.json
+usercache.json
+whitelist.json
+
+# Server properties with sensitive info (optional)
+# server.properties
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.iml
