@@ -3,7 +3,10 @@ Hi,
 This is a full working minecraft server (well almost) just run the start script and it starts working.
 
 # Deployment
-Open minecraft server folder.
+Open directory where you want minecraft folder to be.
+
+This command create a mc-template folder within the folder you are in and put all needed files within.
+
 Run: 
 ```git clone https://github.com/MythicSorcerer/mc-template.git```
 
@@ -16,6 +19,9 @@ Start server:
 
 Rcon:
 - "./mc/rcon.sh"
+
+Logs: 
+- "./mc/log.sh"
 
 # Connecting
 Forward port 25565 for players to connect to server and 25575 as well (for rcon to work correctly).
