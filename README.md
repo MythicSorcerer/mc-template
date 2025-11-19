@@ -5,17 +5,24 @@ This is a full working minecraft server (well almost) just run the start script 
 # Deployment
 Open directory where you want minecraft folder to be.
 
+Run the below command.
 This command create a mc-template folder within the folder you are in and put all needed files within.
+I would recommend deleting the .git folder for cleanliness and renaming the folder minecraft.
 
 Run: 
-```git clone https://github.com/MythicSorcerer/mc-template.git```
+```
+git clone https://github.com/MythicSorcerer/mc-template.git
+```
 
 
 # Usage
 Start server:
 - Would reccomend putting in tmux window
-- run "./mc/start.sh"
+- run below command from minecraft folder
 - alternatively use systemctl
+```
+./mc/start.sh
+```
 
 Rcon:
 - "./mc/rcon.sh"
@@ -25,8 +32,10 @@ Logs:
 
 Oldlogs:
 - "./server/logs/unzipper" to unzip
-```cd logs/readable/
-./catall | less ```
+```
+cd logs/readable/
+./catall | less
+```
 
 # Connecting
 Forward port 25565 for players to connect to server and 25575 as well (for rcon to work correctly).
