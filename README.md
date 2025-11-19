@@ -54,4 +54,4 @@ crontab -e
 
 
 # NOTICE
-I do not own any of the code used here
+I do not own any of Mojang's code or Tiiffi's code used in this repository.
