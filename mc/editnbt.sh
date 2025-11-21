@@ -1,3 +1,3 @@
 #!/bin/bash
 cd ../tools
-python3 mcplayer.py
+./nbt_tool.py
