@@ -1,0 +1,1 @@
+- nbt tool not hide bottom items?
